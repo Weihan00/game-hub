@@ -6,3 +6,4 @@ export default axios.create({
         key: '2aa7ff2765fb44d99fc8eaa5b95afffd'
     }
 })
+
