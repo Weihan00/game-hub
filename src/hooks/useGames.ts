@@ -1,4 +1,3 @@
-import { Genre } from "./useGenres";
 import { GameQuery } from '../App';
 import { useQuery } from "@tanstack/react-query";
 import  APIClient, { FetchResponse } from "../services/api-client";
