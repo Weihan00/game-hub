@@ -4,7 +4,6 @@ import PlatformIconList from "./PlatformIconList";
 import CriticScore from "./CriticScore";
 import getCroppedImageUrl from "../services/image-url";
 import Emoji from "./Emoji";
-import { GameQuery } from "../App";
 
 interface Props {
   game: Game;
