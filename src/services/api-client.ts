@@ -2,8 +2,9 @@ import axios, { AxiosRequestConfig } from "axios";
 
 export interface FetchResponse<T> {
     count: number;
+    next: string | null;
+
     results: T[];
-    next: string | null
   }
 // export axios.create({
 //     baseURL: 'https://api.rawg.io/api',
